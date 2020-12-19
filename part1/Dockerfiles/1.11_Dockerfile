@@ -1,4 +1,4 @@
-from ubuntu:16.04
+FROM ubuntu:16.04
 
 WORKDIR /backend
 RUN apt update -y && apt install npm -y && apt install curl -y
