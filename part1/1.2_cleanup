@@ -1,0 +1,9 @@
+Script started on 2020-12-19 10:16:08+02:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="89" LINES="30"]
+]0;pena@webserver: ~pena@webserver:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;pena@webserver: ~pena@webserver:~$ co[K[Kdocker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;pena@webserver: ~pena@webserver:~$ exit
+exit
+
+Script done on 2020-12-19 10:16:22+02:00 [COMMAND_EXIT_CODE="0"]
