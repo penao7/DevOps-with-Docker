@@ -147,8 +147,12 @@ $ docker run -d --name rails-app -p 3000:3000 rails
 
 # 1.15
 
-[Dockerised project](https://hub.docker.com/repository/docker/penao7/buttongame)
+[buttongame](https://hub.docker.com/r/penao7/buttongame)
 
 # 1.16
 
+[Heroku-app](https://penantestherokuapp.herokuapp.com/)
 
+# 1.17
+
+[nodejs-server](https://hub.docker.com/r/penao7/nodejs-server)
