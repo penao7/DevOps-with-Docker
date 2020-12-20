@@ -112,3 +112,19 @@ Ports configured correctly!!
 $ docker run -d --name backend -v "/usr/app/logs.txt:/backend/logs.txt" -p 8000:8000 backend
 ```
 
+# 1.12
+
+### Frontend
+
+[Dockerfile](/part1/Dockerfiles/1.12_frontend_Dockerfile)
+
+```bash
+$ docker run -d --name frontend -p 5000:5000 frontend 
+```
+[Dockerfile](/part1/Dockerfiles/1.12_backend_Dockerfile)
+
+
+### Backend
+```bash
+$ docker run -d --name backend -p 8000:8000 backend
+```
