@@ -1,0 +1,11 @@
+FROM ruby:2.6.0
+
+RUN apt-get update && apt-get install nodejs -y
+WORKDIR /rails-project
+COPY rails-example-project .
+RUN gem install bundler
+RUN bundle install
+EXPOSE 3000
+RUN rails db:migrate
+CMD ["rails", "s"] 
+
