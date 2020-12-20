@@ -128,3 +128,15 @@ $ docker run -d --name frontend -p 5000:5000 frontend
 ```bash
 $ docker run -d --name backend -p 8000:8000 backend
 ```
+
+# 1.13
+
+[Dockerfile](/part1/Dockerfiles/1.13_Dockerfile)
+
+```bash
+$ docker run -d --name java-app -p 8080:8080 java
+```
+
+# 1.14
+
+
