@@ -30,3 +30,7 @@ $ docker-compose up --scale compute=5
 
 [docker-compose.yml](/part2/yml/2.7_docker-compose.yml)
 
+## 2.8
+
+[docker-compose.yml](/part2/yml/2.8_docker-compose.yml)
+
