@@ -6,4 +6,4 @@ In this repo I have returned tasks for the course [DevOps with docker](https://d
 
 [Part 2](/part2)
 
-[Part 3]/part3)
+[Part 3](/part3)
