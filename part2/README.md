@@ -34,3 +34,13 @@ $ docker-compose up --scale compute=5
 
 [docker-compose.yml](/part2/yml/2.8_docker-compose.yml)
 
+## 2.9
+
+[docker-compose.yml](/part2/yml/2.9_docker-compose.yml)
+
+## 2.10
+
+[docker-compose.yml](/part2/yml/2.9_docker-compose.yml)
+[dockerfile_frontend](/part2/Dockerfiles/2.10_Dockerfile_frontend)
+[dockerfile_backend](/part2/Dockerfiles/2.10_Dockerfile_backend)
+
