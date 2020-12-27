@@ -69,3 +69,5 @@ frontend       latest       f2a99eaf4df4   8 minutes ago   328MB
 [imagebuilder_dockerfile_after](/part3/Dockerfiles/3.7_Dockerfile_imagebuilder_after)
 
 ## 3.8
+
+![kubernetes](/part3/images/kubernetes.png)
