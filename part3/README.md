@@ -3,7 +3,7 @@
 
 ## 3.1
 
-## Before
+## Before optimization
 
 ```bash
 $ docker images
@@ -12,7 +12,7 @@ frontend     latest       1297a69cdece   13 minutes ago  778MB
 backend      latest       9faa2dfe7375   26 minutes ago  522MB
 ```
 
-## After 
+## After optimization
 
 ```bash
 $ docker images
