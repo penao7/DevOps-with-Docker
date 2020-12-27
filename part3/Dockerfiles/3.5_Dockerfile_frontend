@@ -1,0 +1,14 @@
+FROM node:alpine
+
+WORKDIR /frontend
+COPY frontend-example-docker .
+RUN npm install && \
+    adduser -D web && \
+    chown -R web ../frontend 
+
+USER web
+
+ENV API_URL=http://192.168.1.198:8000
+EXPOSE 5000
+CMD ["npm", "start"]
+

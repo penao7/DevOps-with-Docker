@@ -1,0 +1,20 @@
+from ubuntu:16.04
+
+WORKDIR /backend
+COPY backend-example-docker .
+RUN apt update -y && \ 
+    apt install npm -y && \
+    apt install curl -y && \
+    curl -sL https://deb.nodesource.com/setup_10.x | bash && \
+    apt install -y nodejs && \
+    npm install && \
+    apt-get purge -y --auto-remove curl && \
+    rm -rf /var/lib/apt/lists/* && \
+    useradd -m web && \
+    chown -R web ../backend    
+
+USER web
+
+EXPOSE 8000
+ENV FRONT_URL=http://192.168.1.198
+CMD ["npm", "start"]

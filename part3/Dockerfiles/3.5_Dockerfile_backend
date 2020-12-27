@@ -1,0 +1,14 @@
+from node:alpine
+
+WORKDIR /backend
+COPY backend-example-docker .
+RUN npm install && \
+    rm -rf /var/lib/apt/lists/* && \
+    adduser -D web && \
+    chown -R web ../backend    
+
+USER web
+
+EXPOSE 8000
+ENV FRONT_URL=http://192.168.1.198
+CMD ["npm", "start"]

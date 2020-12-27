@@ -1,0 +1,10 @@
+FROM node:alpine
+
+WORKDIR /imageBuilder
+COPY imageBuilder.js .
+RUN apk add --no-cache docker && \
+    apk add --no-cache git && \
+    npm install
+    
+CMD ["node", "imageBuilder.js"] 
+

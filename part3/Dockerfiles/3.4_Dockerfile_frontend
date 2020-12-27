@@ -1,0 +1,21 @@
+FROM ubuntu:16.04
+
+WORKDIR /frontend
+COPY frontend-example-docker .
+RUN apt update && \
+    apt install npm -y && \
+    apt install curl -y && \ 
+    curl -sL https://deb.nodesource.com/setup_10.x | bash && \
+    apt install nodejs -y && \
+    npm install && \
+    apt-get purge -y --auto-remove curl && \
+    rm -rf /var/lib/apt/lists/* && \
+    useradd -m web && \
+    chown -R web ../frontend 
+
+USER web    
+
+ENV API_URL=http://192.168.1.198:8000
+EXPOSE 5000
+CMD ["npm", "start"]
+
