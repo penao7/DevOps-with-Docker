@@ -70,4 +70,6 @@ frontend       latest       f2a99eaf4df4   8 minutes ago   328MB
 
 ## 3.8
 
+picture doesnt look like it should when using dark mode
+
 ![kubernetes](/part3/images/kubernetes.png)
