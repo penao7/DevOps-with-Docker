@@ -60,7 +60,7 @@ frontend       latest       f2a99eaf4df4   8 minutes ago   328MB
 
 ## 3.6
 
-[frontend_dockerfile](/part3/Dockerfiles/3.6_Dockerfile_backend)
+[frontend_dockerfile](/part3/Dockerfiles/3.6_Dockerfile_frontend)
 
 ## 3.7
 
