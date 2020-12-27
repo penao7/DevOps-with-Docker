@@ -1,6 +1,6 @@
 # DevOps-with-docker
 
-In this repo I have returned tasks for the course [DevOps with docker](https://devopswithdocker.com/).
+This repository is for the tasks made for the course [DevOps with docker](https://devopswithdocker.com/).
 
 [Part 1](/part1)
 

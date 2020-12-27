@@ -37,7 +37,7 @@ backend      latest       a12bc1808f05   16 seconds ago   299MB
 
 ## 3.5
 
-#### After
+#### Before optimization
 
 ```bash
 REPOSITORY     TAG          IMAGE ID       CREATED          SIZE
@@ -45,7 +45,7 @@ backend        latest       086a4f0bdc3c   7 minutes ago    300MB
 frontend       latest       0426954ee14b   13 minutes ago   495MB
 ```
 
-#### Before
+#### After optimization
 
 [frontend_dockerfile](/part3/Dockerfiles/3.5_Dockerfile_frontend)
 
